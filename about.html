@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <STYLE>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    min-height: 100vh;
+}
+
+/* Navbar */
+nav {
+    background: #ff4d6d;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: white;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffe066;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h2 {
+    font-size: 48px;
+    color: #6a040f;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.hero button {
+    padding: 12px 30px;
+    background: #ff4d6d;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background: #d00000;
+}
+
+/* Product Section */
+.products {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-card h3 {
+    margin: 15px 0 5px;
+}
+
+.product-card button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background: #ff006e;
+}
+
+/* Page Content */
+.content {
+    padding: 60px;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    border-radius: 15px;
+}
+
+/* Form */
+form input, form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #ff4d6d;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #ff4d6d;
+    color: white;
+    margin-top: 40px;
+}
+
+    </STYLE>
+</head>
+<body>
+
+<nav>
+    <h1>Accessory Shop</h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="content">
+    <h2>About Us</h2>
+    <p>
+        We are a colorful accessories brand bringing you stylish, affordable,
+        and trendy fashion items. Our goal is to make every outfit shine 💖
+    </p>
+</div>
+
+<footer>© 2026 Accessory Shop</footer>
+</body>
+</html>
